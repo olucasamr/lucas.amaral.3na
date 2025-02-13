@@ -1,0 +1,19 @@
+# Ignorar diretórios target em qualquer nível de subdiretório
+**/target/
+
+# Ignorar arquivos de bloqueio do Cargo (gerados em dependências específicas)
+Cargo.lock
+
+# Ignorar arquivos temporários e de backup de editores
+*.rs.bk
+*.log
+
+# Ignorar arquivos de configuração do editor (exemplo para o VS Code)
+.vscode/
+
+# Ignorar arquivos de configuração do Rustfmt e Clippy
+rustfmt.toml
+.clippy.toml
+
+# Ignorar arquivos gerados durante a execução de testes (opcional)
+/tests/
